@@ -8,7 +8,7 @@ a small web app using Django that handles fund transfers between two accounts, t
 
 The web app needs to provide the following functional requirements
 
-• Import accounts from CSV files.
+• Import accounts from CSV files or other formats
 
 • List all accounts.
 
@@ -18,7 +18,13 @@ The web app needs to provide the following functional requirements
 
 # How to use 
 1. Create a virtual env and activate it 
-2. install packages in the requirements 
-3. if you want a new db delete current and migrate 
-4. run the project using python3 manage.py runserver
+2. install packages in the requirements.txt 
+```cmd
+pip install -r requirements.txt
+```
+3. if you want a new db delete current and remove migrations folders then make migrations and migrate
+4. run the project using this command
+```cmd 
+python3 manage.py runserver 
+```
 5. the main page is localhost/accounts
