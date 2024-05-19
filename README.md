@@ -16,3 +16,9 @@ The web app needs to provide the following functional requirements
 
 • Transfer funds between two accounts.  
 
+# How to use 
+1. Create a virtual env and activate it 
+2. install packages in the requirements 
+3. if you want a new db delete current and migrate 
+4. run the project using python3 manage.py runserver
+5. the main page is localhost/accounts
